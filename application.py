@@ -6,8 +6,8 @@ import numpy as np
 import pandas as pd
 import requests
 
-content_list = pickle.load(open('courses.pkl','rb'))
-content_similarity = pickle.load(open('similarity.pkl','rb'))
+content_list = pickle.load(open('content.pkl','rb'))
+content_similarity = pickle.load(open('content_sim.pkl','rb'))
 
 
 def recommend(course):
